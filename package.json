@@ -1,6 +1,6 @@
 {
   "name": "@micro-web/standard",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "publishConfig": {
     "access": "public"
   },
@@ -41,11 +41,10 @@
     "postcss-less": "^6.0.0",
     "prettier": "^3.0.3",
     "prettier-plugin-packagejson": "^2.4.6",
-    "stylelint": "^14.16.1",
+    "stylelint": "^15.11.0",
     "stylelint-config-css-modules": "^4.3.0",
-    "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-recess-order": "^3.1.0",
-    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-recess-order": "^4.3.0",
+    "stylelint-config-standard": "^34.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0"
   }
 }
