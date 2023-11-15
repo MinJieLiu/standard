@@ -7,8 +7,20 @@ module.exports = {
   customSyntax: 'postcss-less',
   plugins: ['stylelint-declaration-block-no-ignored-properties'],
   rules: {
+    'declaration-block-no-redundant-longhand-properties': [
+      true,
+      {
+        ignoreShorthands: ['inset'],
+      },
+    ],
     'no-descending-specificity': null,
-    'function-no-unknown': null,
+    'function-no-unknown': [
+      true,
+      {
+        ignoreFunctions: ['global'],
+      },
+    ],
+    'import-notation': null,
     'selector-class-pattern': '^[a-z][A-Za-z0-9-]+$',
   },
   ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.tsx', '**/*.ts'],
