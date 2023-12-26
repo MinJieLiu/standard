@@ -7,6 +7,7 @@ module.exports = {
   customSyntax: 'postcss-less',
   plugins: ['stylelint-declaration-block-no-ignored-properties'],
   rules: {
+    'at-rule-no-unknown': null,
     'declaration-block-no-redundant-longhand-properties': [
       true,
       {
